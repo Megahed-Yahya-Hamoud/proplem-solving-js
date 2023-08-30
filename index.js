@@ -167,3 +167,18 @@ var day= 30 ;
 day >= 40 ? console.log("Hot") : day >= 35  ? console.log("day between 35 to 40") : console.log("Moderate") ;
 
 
+// ========================================================================================================
+
+
+
+//casting
+
+var test=true;
+console.log(test.toString())
+
+var number1=10;
+console.log(number1.toString())
+
+var number2="10";
+console.log(Number(number2)); 
+console.log(Boolean(number2));
